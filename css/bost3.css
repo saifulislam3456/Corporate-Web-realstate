@@ -1,0 +1,101 @@
+nav.navbar {
+    background: black !important;
+    opacity: .7;
+}
+.dropdown-menu.navbox {
+    background: black;
+}
+
+#hero {
+    background: url(../img/1607093466560.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 1000vh;
+    width: 100%;
+   
+    height: 100vh;
+}
+.hadding{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);    
+}
+
+.majoricon2{
+    color: rgb(0, 183, 255);
+}
+.majoricon3{
+    color: rgb(255, 0, 64);
+}
+
+
+
+
+
+.project-item .project-link {
+    position: relative;
+    display: block;
+}
+
+.project-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ede014c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity ease-in-out .25s;
+}
+#project .project-item .project-link:hover .project-hover{
+                                opacity: 1;
+}
+
+.team-item {
+    position: relative;
+    display: block;
+    height: 330px;
+}
+
+.team-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity ease-in-out .25s;
+}
+.team-item:hover .team-hover{
+    opacity: 1;
+}
+.team-item:hover .innerimg{
+    /* display: none; */
+    opacity: 0;
+}
+.innerimg{
+    transition: .3s;
+}
+
+.team-hover-contant img{
+    width: 150px;
+    height: 150px;
+    transition: .3s;
+}
+.contact1 a i{
+    color: crimson;
+}
+.contact2 a i{
+    color: rgb(10, 190, 10);
+}
+
+.contact3 a i{
+    color: rgb(33, 20, 220);
+}
+
+.contact4 a i{
+    color: rgb(20, 173, 220);
+}
+
